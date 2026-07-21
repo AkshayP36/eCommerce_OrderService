@@ -1,6 +1,11 @@
 package com.akshay.eCommerce.orderService.services;
 
+import com.akshay.eCommerce.orderService.exceptions.ShortInventoryException;
+import com.akshay.eCommerce.orderService.models.*;
+import com.akshay.eCommerce.orderService.repository.*;
 import jakarta.transaction.Transactional;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.*;
 

@@ -1,7 +1,6 @@
 package com.akshay.eCommerce.orderService.models;
 
 import jakarta.persistence.Entity;
-import jakarta.persistence.OneToMany;
 import jakarta.persistence.OneToOne;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
